@@ -14,6 +14,9 @@ Take a picture of this card. You can use your phone’s camera to do this.
 Then make the card, using all of the skills, views and view groups you’ve learned about in Lesson 1. 
 Try to make your card in as simple and clear a way as possible, and to avoid using fixed widths or heights.
 
+## Screenshot
+![alt text](https://discourse-cdn-sjc3.com/udacity/uploads/default/optimized/4X/5/b/b/5bb83fd546eed63662444ddfaff23d5ceb3a1d08_1_281x500.jpg)
+
 ## Author
 
 Ana P Pimentel - [acideater](https://github.com/acideater)
