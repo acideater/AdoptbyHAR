@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.adoptbyhar.MainActivity">
+    <ImageView
+        android:id="@+id/kaylee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kaylee" />
+    <TextView
+        android:id="@+id/adopttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/kaylee"
+        app:fontFamily="sans-serif-condensed"
+        android:text="Adopt a friend today!"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:background="#5870aa"
+        android:textSize="42sp"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to see available pets"
+        android:layout_above="@+id/harlogo"
+        android:background="#009688"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:padding="8dp" />
+    <ImageView
+        android:id="@+id/harlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:padding="8dp"
+        app:srcCompat="@drawable/harlogo" />
+</RelativeLayout>
